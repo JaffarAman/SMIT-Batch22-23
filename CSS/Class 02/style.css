@@ -1,0 +1,65 @@
+body{
+background-color: aqua;
+}
+/* h1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+} */
+
+#head2{
+   font-family: monospace;
+    background-color: rgba(15, 85, 65,0.5);
+    color: white;
+}
+
+#head1 , #head3{
+    color: blue;
+}
+
+#head1{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#head3{
+    text-decoration: dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+p{
+    letter-spacing: 1.5px;
+    line-height: 2.5em;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-small;
+}
+
+#saylani{
+   letter-spacing: 1.5em;
+    color: blue;
+}
+
+.para1{
+    
+    background-image: url("./images/logo\ smit.png");
+    background-repeat: no-repeat;
+    text-indent: 9px;
+}
+.para2{
+   background-color: #fe3e3e;
+color: #cccccc;
+text-shadow: -5px -8px #7c7c7c;
+}
+.para3{
+    text-align: left;
+}

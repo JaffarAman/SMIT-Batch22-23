@@ -1,0 +1,42 @@
+/* h1{
+   color : red  
+} */
+
+/* target by element */
+
+/* type selector */
+/* p{
+   color: blue;
+   background-color : black
+} */
+
+/* target by id = # */
+/* id selector */
+/* #para{
+   color: blue;
+   background-color: black;
+} */
+
+/* target by class = ". (dot) " */
+/* class selector */
+/* .newPara{
+   color: red;
+   background: blue;
+} */
+
+
+.heading1{
+   /* color: darkred/; */ /*color name*/
+   /* color: rgb(17, 28, 110); 0 to 255 rgb */
+   /* color: #18786F; */
+   /* color: #0064E0; */
+   /* color: #000; */
+   /* background-color: #FEE685; */
+   /* color: hsl(233, 49%, 57%); */
+   /* color: red; */
+   background-color: rgba(0, 0, 0,0.5);
+   /* background-color: blue; */
+   /* opacity: 0.1; */
+
+
+}

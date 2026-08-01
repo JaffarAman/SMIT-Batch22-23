@@ -1,0 +1,74 @@
+/* type selector */
+/* h1{
+    color: red;
+} */
+
+/* id selector */
+#heading2 {
+  color: blue;
+}
+
+/* class selector */
+.heading {
+  color: red;
+  font-size: 16px;
+}
+
+.para {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  /* text-transform:uppercase ; */
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+}
+
+.heading3 {
+  color: black;
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  /* text-decoration: overline; */
+  /* text-decoration: overline #ff0000 ; */
+  /* text-decoration: underline red solid ; */
+  /* text-decoration: orange dashed underline; */
+}
+
+.para10 {
+  color: blue;
+}
+.paraSpan{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.para11{
+    color: red;
+    /* word-spacing: 50px; */
+    /* letter-spacing: 20px; */
+    /* line-height: 10px; */
+}
+
+/* .newHeading{
+    color: blue;
+    font-family: Arial,sans-serif;
+} */
+
+
+.heading10{
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align: left; */
+    background-color: black;
+    color: white;
+    /* text-align: right; */
+
+}
+
+.para100{
+    text-align: justify;
+}
+
+.heading1000{
+    text-shadow: 10px 10px 10px red ;
+}

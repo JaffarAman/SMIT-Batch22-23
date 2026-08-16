@@ -1,0 +1,126 @@
+.myTable {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* rows */
+.myTable tr {
+  border: 1px solid red;
+  /* background-color: black; */
+}
+
+.myTable td {
+  /* border: 1px solid blue; */
+  /* background-color: blue; */
+}
+
+.myTable th {
+  /* border: 1px solid purple; */
+}
+
+.myTable2 {
+  border: 1px solid black;
+  /* border-spacing: 10px; */
+  /* border-collapse: collapse; */
+}
+
+.myTable2 tr {
+  /* border: 1px solid red;
+  background-color: red; */
+  background-color: red;
+  padding: 100px;
+  margin: 100px;
+}
+
+.myTable2 td {
+  background-color: blue;
+  margin: 100px;
+  padding: 30px;
+  border: 5px solid black;
+}
+
+/* 
+tr{
+  border: 1px solid red;
+} */
+
+.myTable3 {
+  empty-cells: hide;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* new css  */
+
+.parent {
+  padding: 24px;
+}
+.newTable {
+  /* border: 1px solid black; */
+  width: 100%;
+  border-collapse: collapse;
+  /* margin: 16px; */
+}
+
+.newTable th,
+.newTable td {
+  padding: 16px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.newTable th {
+  background-color: gray;
+}
+
+.newTable tbody tr {
+  background-color: lightgray;
+}
+
+/* .newTable td {
+  border: 1px solid red;
+  padding: 16px;
+} */
+
+.newTable tbody td:hover {
+  cursor: pointer;
+  background-color: lightseagreen;
+  transition: all 2s ease;
+}
+.newTable tbody tr:hover {
+  background-color: lightskyblue;
+}
+
+.box1 {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+}
+
+.box2 {
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+  /* margin-left: 200px; */
+
+  position: relative;
+  left: 100px;
+  top: 100px;
+
+  /* left: 500px; */
+
+  /* left: ; */
+  /* top: ; */
+  /* right: ; */
+  /* bottom: ; */
+}
+
+.box3 {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+}

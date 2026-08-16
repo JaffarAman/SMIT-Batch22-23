@@ -1,0 +1,25 @@
+.list{
+    /* list-style-type: upper-roman; */
+    /* list-style-type: none; */
+    /* background-color: red; */
+    color: blue;
+}
+
+
+.list li{
+    background-color: orange;
+    /* list-style-position: inside; */
+    /* list-style-position: ; */
+    /* list-style-type: ; */
+    /* list-style: none; */
+
+    list-style: decimal inside;
+    list-style-position: outside;
+    color: red;
+}
+
+/* .list li{
+    display: inline-block;
+} */
+
+

@@ -1,0 +1,120 @@
+/* .container {
+  background-color: red;
+}
+
+.heading {
+  font-size: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+  .heading {
+    background-color: blue;
+    font-size: 30px;
+  }
+} */
+
+/* @media only screen and (max-width: 500px) {
+  .heading {
+    font-size: 30px;
+  }
+  .container {
+    background-color: blue;
+  }
+} */
+
+/* @media only screen and (max-width:500px){
+
+} */
+
+/* 
+@media screen and (max-width:768px) {
+        
+}
+ */
+
+/* @media only screen and (max-width:768px){
+    .container{
+        background-color: aqua;
+    }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centerLayout {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  padding: 16px;
+}
+
+.navbar img {
+  width: 80px;
+  height: 38px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  color: #364153;
+}
+
+.navbar li button {
+  width: 140px;
+  height: 36px;
+  border-radius: 30px;
+  border: none;
+  background-color: #0b73b7;
+  color: white;
+  cursor: pointer;
+}
+.navbar li {
+  cursor: pointer;
+}
+
+.herosection {
+  background: linear-gradient(
+    to right,
+    rgb(0, 105, 208),
+    rgba(109, 168, 0, 0.71)
+  );
+  padding: 48px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1024px)  { 
+      .navbar{
+          justify-content: center;
+      }
+}
+
+
+

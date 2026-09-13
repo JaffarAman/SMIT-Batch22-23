@@ -1,0 +1,21 @@
+.logoContainer img {
+  width: 160px;
+  height: 30px;
+}
+
+.featureDropdown li a:hover {
+  background-color: #6851ff;
+  color: white;
+}
+
+.mySlider img {
+  height: 500px;
+}
+
+.myModal {
+  min-width: 60%;
+}
+
+.modalSlider img {
+  height: 400px;
+}

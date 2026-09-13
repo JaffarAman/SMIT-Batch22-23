@@ -1,0 +1,12 @@
+.myHtmlModal {
+  /* width: 80%; */
+  min-width: 70%;
+}
+
+.listing {
+  list-style: none;
+}
+
+.listing li {
+  margin: 10px;
+}
